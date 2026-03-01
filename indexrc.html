@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RC Lookup</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>RC Lookup</h1>
+</header>
+
+<section class="main">
+  <h2>Enter RC Number</h2>
+  <input type="text" id="rcInput" placeholder="e.g. KL43G1669">
+  <button onclick="fetchRC()">Search</button>
+
+  <div id="loading" class="loading"></div>
+  <div id="result" class="result"></div>
+</section>
+
+<footer class="footer">
+  <p>Powered by API</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
